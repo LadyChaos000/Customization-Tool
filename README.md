@@ -32,37 +32,42 @@ npm start
 ```
 
 ## Project Structure
-Here's an overview of the project's structure:
-client/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── canvas/
-│   │   ├── Backdrop.jsx
-│   │   ├── CameraRig.jsx
-│   │   ├── index.jsx
-│   │   ├── Nail.jsx
-│   │   └── NailScene.jsx
-│   ├── components/
-│   │   ├── ColorPicker.js
-│   │   ├── CustomButton.js
-│   │   ├── FilePicker.js
-│   │   └── Tab.js
-│   ├── config/
-│   │   ├── constants.js
-│   │   ├── config.js
-│   │   ├── helpers.js
-│   │   └── motion.js
-│   ├── store/
-│   │   └── index.js
-│   ├── pages/
-│   │   ├── Home.js
-│   │   └── Customizer.js
-│   ├── App.js
-│   └── index.js
-├── .gitignore
-├── package.json
-├── README.md
+### Directory Descriptions
+
+- **public/**: This directory contains static files such as the `index.html` file.
+- **src/**: This is the main source directory for the project's code.
+  - **assets/**: Contains assets like images, fonts, etc.
+  - **canvas/**: Contains components related to the canvas rendering.
+    - `Backdrop.jsx`: Component for the backdrop.
+    - `CameraRig.jsx`: Component for camera rig configuration.
+    - `index.jsx`: Main entry for canvas components.
+    - `Nail.jsx`: Component representing a nail.
+    - `NailScene.jsx`: Scene component for nails.
+  - **components/**: Contains reusable UI components.
+    - `ColorPicker.js`: Component for color selection.
+    - `CustomButton.js`: Custom button component.
+    - `FilePicker.js`: Component for file selection.
+    - `Tab.js`: Tab component.
+  - **config/**: Configuration files and helpers.
+    - `constants.js`: File for constants used throughout the project.
+    - `config.js`: Main configuration file.
+    - `helpers.js`: Helper functions.
+    - `motion.js`: Configuration for motion/animation.
+  - **store/**: Redux store configuration.
+    - `index.js`: Main store setup.
+  - **pages/**: Contains different pages of the application.
+    - `Home.js`: Home page component.
+    - `Customizer.js`: Customizer page component.
+  - `App.js`: Main application component.
+  - `index.js`: Entry point for the application.
+
+### Root Files
+
+- **.gitignore**: Specifies files and directories to be ignored by Git.
+- **package.json**: Contains project dependencies and scripts.
+- **README.md**: Project documentation.
+
+
 
 ## Dependencies
 The project relies on the following main dependencies:
